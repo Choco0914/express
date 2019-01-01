@@ -1,0 +1,28 @@
+{
+  "name": "Learn-express",
+  "version": "1.0.0",
+  "description": "Learn express",
+  "main": "init.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choco0914/express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Choco0914/express/issues"
+  },
+  "homepage": "https://github.com/Choco0914/express#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
